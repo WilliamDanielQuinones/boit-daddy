@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const client = new Discord.Client()
 const {
 	prefix,
   token,
@@ -6,13 +7,6 @@ const {
   discord_id
 } = require('./config.json')
 
-const client = new Discord.Client()
-
-// Require the Discord.js library.
-const Discord = require('discord.js')
-
-// Start a new Client from Discord.js. You can name this to whatever you like.
-const client = new Discord.Client()
 
 // Put the Music module in the new Client object.
 // This allows for easy access to all the modules
