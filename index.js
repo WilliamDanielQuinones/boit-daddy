@@ -11,7 +11,7 @@ const {
 // Put the Music module in the new Client object.
 // This allows for easy access to all the modules
 // functions and data.
-client.music = require("discord.js-musicbot-addon")
+client.music = require("discord.js-musicbot")
   // Now we start the music module.
   // Following the previous example.
   client.music.start(client, {
