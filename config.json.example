@@ -1,4 +1,5 @@
 {
   "prefix": "!",
-  "token": "your-token"
+  "token": "your-token",
+  "yt-key": "your-yt-api-key"
   }

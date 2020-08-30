@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/WilliamDanielQuinones/boit-daddy#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.3.1",
+    "discord.js-musicbot-addon": "^13.9.1",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "opusscript": "0.0.7",
