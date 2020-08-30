@@ -1,27 +1,28 @@
 {
-  "name": "boit-daddy",
-  "version": "1.0.0",
-  "description": "Discord bot for Arigatu Island",
+  "name": "evobot",
+  "version": "0.7.0",
+  "description": "Discord music bot built with discord.js",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Erit Islami <eritislami@gmail.com>",
+  "private": true,
+  "homepage": "https://github.com/eritislami/evobot",
+  "repository": "github:eritislami/evobot",
+  "bugs": "https://github.com/eritislami/evobot/issues",
+  "engines": {
+    "node": ">=12.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WilliamDanielQuinones/boit-daddy.git"
-  },
-  "author": "daniel quinones",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WilliamDanielQuinones/boit-daddy/issues"
-  },
-  "homepage": "https://github.com/WilliamDanielQuinones/boit-daddy#readme",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
-    "discord.js": "^12.3.1",
-    "discord.js-musicbot": "^14.0.7",
-    "ffmpeg": "0.0.4",
-    "fluent-ffmpeg": "^2.1.2",
-    "opusscript": "0.0.7"
+    "discord.js": "^12.0.1",
+    "ffmpeg-static": "^4.2.3",
+    "lyrics-finder": "^21.0.5",
+    "simple-youtube-api": "^5.1.1",
+    "soundcloud-downloader": "^0.1.2",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^3.1.0",
+    "ytdl-core-discord": "^1.2.1"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
