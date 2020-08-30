@@ -22,7 +22,6 @@
     "discord.js-musicbot-addon": "^13.9.1",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
-    "opusscript": "0.0.7",
-    "ytdl-core": "^3.2.2"
+    "opusscript": "0.0.7"
   }
 }

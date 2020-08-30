@@ -1,5 +1,6 @@
 {
   "prefix": "!",
   "token": "your-token",
-  "yt-key": "your-yt-api-key"
+  "yt_key": "your-yt-api-key",
+  "discord_id": "your-discord-id"
   }
